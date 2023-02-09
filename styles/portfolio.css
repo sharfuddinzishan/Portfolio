@@ -118,7 +118,8 @@ section {
   color: #757575;
 }
 /* Main */
-main {
+main,
+#contact .contact-container {
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -194,4 +195,38 @@ main {
 }
 .divider {
   border: 1px solid #d1d1d1;
+}
+/* Contact */
+#contact {
+  background-color: #fff8f3;
+}
+.contact-container {
+  display: flex;
+  gap: 115px;
+  padding: 130px 156px;
+}
+.connect {
+  width: 50%;
+}
+.connect-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #474747;
+}
+.icon {
+  margin-right: 10px;
+}
+.message {
+  width: 50%;
+}
+.message form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.message form input {
+  padding: 10px;
+}
+.contact-submit-btn {
+  width: 150px;
 }
