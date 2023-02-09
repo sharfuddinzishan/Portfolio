@@ -29,7 +29,7 @@
   margin-bottom: 35px !important;
 }
 .mb-5 {
-  margin-bottom: 50px !important;
+  margin-bottom: 130px !important;
 }
 .me-2 {
   margin-right: 35px !important;
@@ -63,6 +63,9 @@
 .btn-outline-orange:hover {
   background-color: #fd6e0a;
   color: #ffffff;
+}
+section {
+  margin-top: 130px;
 }
 .section-title {
   font-weight: 700;
@@ -162,4 +165,35 @@ main {
   font-weight: 400;
   font-size: 16px;
   color: #757575;
+}
+/* Resume0 */
+.resume-container {
+  display: flex;
+  gap: 70px;
+}
+.resume-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+}
+.resume-item {
+}
+.title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+}
+.subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-top: 10px;
+}
+.resume-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+.divider {
+  border: 1px solid #d1d1d1;
 }
